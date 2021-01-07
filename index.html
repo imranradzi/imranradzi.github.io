@@ -5,40 +5,32 @@
     <style>
     body {
             padding: 25px;
-            background-color: rgb(180, 180, 180);
-            color: rgb(43, 43, 43);
+            background-color: rgb(43, 43, 43);
+            color: rgb(180, 180, 180);
             font-size: 25px;
-    }
+            font-family: monospace;
 
-    .dark-mode {
-        background-color: rgb(43, 43, 43);
-        color: rgb(180, 180, 180);
     }
-
     .topnav {
-    background-color: #333;
+    background-color: rgb(83, 83, 83);
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 30px;
+    margin: 15px 300px;
     }
-
     .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #c5fbff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 27px;
-    font-family: sans-serif;
-    border-radius: 10px;
+    font-family: monospace;
+    border-radius: 30px;
     }
-
     .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: rgb(255, 151, 151);
     }
-
     .topnav a.active {
-    background-color: #858585;
     color: white;
     }
     h2 {
@@ -51,43 +43,13 @@
 <body>
     <div class="topnav">
         <a class="active" href="index.html">Home</a>
-        <a href="page1.html">Page</a>
+        <a href="page1.html">About Me</a>
+        <a href="testpage.html">Page</a>
     </div>
-    <button onclick="myFunction()">toggle dark mode</button>
-    <h1>website</h1>
-    <h2>top</h2>
-    <a href="#bottom">jump to bottom</a>
-    <h2>in-progress</h2>
-    <p>currently a website in progress, still learning and experimenting
-        with html and css
-    </p>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 >sample text </h2>
-    <h2 id="bottom">bottom</h2>
-
-    <script>
-    function myFunction() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-    }
-    </script>
-
-    <script>
-        var host = "imranradzi.github.io";
-        if ((host == window.location.host) && (window.location.protocol != "https:"))
-            window.location.protocol = "https";
-    </script>
-    
+    <div>
+        <h1>Main Page</h1>
+    </div>
+   
 </body>
 </html>
 
