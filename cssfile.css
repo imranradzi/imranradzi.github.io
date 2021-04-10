@@ -6,6 +6,15 @@ body {
     font-family: monospace;
 
 }
+a {
+    color: #2c87f0;
+  }
+  a:visited {
+    color: #636;
+  }
+  a:hover, a:active, a:focus {
+    color:#93c5fd;
+  }
 .topnav {
 background-color: rgb(83, 83, 83);
 overflow: hidden;
