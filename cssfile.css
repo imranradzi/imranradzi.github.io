@@ -34,13 +34,11 @@ body::-webkit-scrollbar-thumb {
 footer {
   height: min(5vh, 10%);
   position: relative;
-  display: grid;
-  justify-items: center;
+  display: flex;
   justify-content: right;
   align-items: center;
-  column-gap: 6px;
-  grid-template: 5vh / 75vw 4vw 8vw 8vw;
   background-color: rgba(240, 255, 255, 0.123);
+  padding-right: 2vw;
 }
 
 
@@ -75,6 +73,7 @@ a:hover, a:active {
 
 footer > div {
   height: 100%;
+  padding: 0 5px;
 }
 
 .github img {
@@ -85,11 +84,3 @@ footer > div {
   height: 50%;
 }
 
-.github {
-  grid-column: 3 / 4;
-}
-
-.cv {
-  grid-row: 1;
-  grid-column: 2 / 3;
-}
