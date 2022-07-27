@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    text-align: justify;
 }
 
 body::-webkit-scrollbar {
@@ -68,17 +69,30 @@ span {
 }
 
 .about-me {
-  width: 60vw;
+  width: 55vw;
 }
 
 .first-row {
   display: flex;
-  height: 16px;
+  height: 1.5rem;
   justify-content: space-between;
+}
+
+.links > div {
+  height: 100%;
+  padding: 4px;
 }
 
 .links {
   display: flex;
+}
+
+.github img {
+  height: 100%;
+}
+
+.linkedin img {
+  height: 50%;
 }
 
 .second-section {
@@ -111,23 +125,15 @@ a:link {
 }
 
 a:visited {
-  color: rgba(0, 153, 255, 0.74);
+  color: rgba(223, 223, 223, 0.74);
 }
 
 a:hover, a:active {
-  color: rgba(130, 203, 252, 0.863);
+  color: rgba(40, 169, 255, 0.863);
 }
 
 .first-row > div {
   height: 100%;
   padding: 0 5px;
-}
-
-.github img {
-  height: 100%;
-}
-
-.linkedin img {
-  height: 50%;
 }
 
