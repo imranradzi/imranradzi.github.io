@@ -62,7 +62,7 @@ p {
 }
 
 span {
-  color:rgba(0, 153, 255, 0.74);
+  color:rgba(24, 201, 255, 0.863);
 }
 
 .about-me {
@@ -127,7 +127,7 @@ a:visited {
 }
 
 a:hover, a:active {
-  color: rgba(40, 169, 255, 0.863);
+  color: rgba(24, 201, 255, 0.863);
 }
 
 .first-row > div {
@@ -137,5 +137,9 @@ a:hover, a:active {
 
 .third-section {
   flex: 2;
+}
+
+svg:hover {
+  stroke: rgba(24, 201, 255, 0.863);
 }
 
