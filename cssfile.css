@@ -84,14 +84,6 @@ span {
   display: flex;
 }
 
-.github img {
-  height: 100%;
-}
-
-.linkedin img {
-  height: 50%;
-}
-
 .second-section {
   flex: 4;
   display: flex;
@@ -136,10 +128,30 @@ a:hover, a:active {
 }
 
 .third-section {
+  font-size: 3rem;
   flex: 2;
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact > div {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px;
+}
+
+.contact > div:nth-child(1) {
+  font-weight: bold;
 }
 
 svg:hover {
-  stroke: rgba(24, 201, 255, 0.863);
+  fill: rgba(24, 201, 255, 0.863);
+}
+
+.links.bigger {
+  height: 48px;
+  width: 48px;
 }
 
