@@ -66,7 +66,7 @@ span {
 }
 
 .about-me {
-  width: 55vw;
+  width: 65vw;
 }
 
 .first-row {
@@ -91,6 +91,36 @@ span {
   align-items: center;
   background-color: rgba(252, 252, 252, 0.747);
   color:rgba(0, 0, 0, 0.452);
+}
+
+.projects-section {
+  width: 65vw;
+}
+
+.projects-section > p {
+  display: flex;
+  justify-content: center;
+}
+
+.project > div {
+  display: flex;
+  justify-content: center;
+}
+
+.project h3 {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+}
+
+.project p {
+  font-size: 1.75rem;
+}
+
+.project img {
+  height: 20rem;
+  width: 20rem;
+  margin-right: 36px;
 }
 
 a {
