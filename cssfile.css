@@ -11,7 +11,7 @@ body {
     font-family: quicksand, monospace;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 200vh;
     text-align: justify;
 }
 
@@ -49,6 +49,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 105vh;
 }
 
 p {
@@ -91,6 +92,7 @@ span {
   align-items: center;
   background-color: rgba(252, 252, 252, 0.747);
   color:rgba(0, 0, 0, 0.452);
+  min-height: 125vh;
 }
 
 .projects-section {
@@ -165,6 +167,7 @@ a:hover, a:active {
   flex: column;
   justify-content: center;
   align-items: center;
+  height: 50vh;
 }
 
 .contact > div {
@@ -185,4 +188,20 @@ svg:hover {
   height: 48px;
   width: 48px;
 }
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
 
