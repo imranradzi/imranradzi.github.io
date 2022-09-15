@@ -190,13 +190,15 @@ svg:hover {
   width: 48px;
 }
 
-.animation {
-  opacity: 0;
-  transition: all 1s;
-}
-
-.show {
-  opacity: 1;
+@media (min-width:801px) {
+  .animation {
+    opacity: 0;
+    transition: all 1s;
+  }
+  
+  .show {
+    opacity: 1;
+  }
 }
 
 @media(prefers-reduced-motion) {
@@ -205,5 +207,3 @@ svg:hover {
     transition: none;
   }
 }
-
-
