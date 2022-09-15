@@ -102,6 +102,7 @@ span {
 .projects-section > p {
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .project > div {
@@ -121,9 +122,9 @@ span {
 
 .project img {
   height: 20rem;
-  width: 20rem;
+  width: 27rem;
   margin-right: 36px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 a {
@@ -189,7 +190,7 @@ svg:hover {
   width: 48px;
 }
 
-.hidden {
+.animation {
   opacity: 0;
   transition: all 1s;
 }
@@ -200,6 +201,7 @@ svg:hover {
 
 @media(prefers-reduced-motion) {
   .hidden {
+    opacity: 1;
     transition: none;
   }
 }
