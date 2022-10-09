@@ -37,11 +37,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .gradient1 {
-  background: linear-gradient(to bottom right, rgb(43, 43, 43) 50%, rgba(252, 252, 252, 0.747) 50.9%);
+  background: linear-gradient(to bottom , rgb(43, 43, 43) 50%, rgba(71, 71, 71, 0.747) 50.9%);
 }
 
 .gradient2 {
-  background: linear-gradient(to bottom left, rgb(252, 252, 252, 0.747) 50%, rgb(43, 43, 43) 50.9%)
+  background: linear-gradient(to bottom , rgba(71, 71, 71, 0.747) 50%, rgb(43, 43, 43) 50.9%)
 }
 
 .first-section {
@@ -90,8 +90,8 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(252, 252, 252, 0.747);
-  color:rgba(0, 0, 0, 0.452);
+  background-color: rgba(71, 71, 71, 0.747);
+  color:rgba(255, 255, 255, 0.893);
   min-height: 125vh;
 }
 
@@ -122,9 +122,10 @@ span {
 
 .project img {
   height: 20rem;
-  width: 27rem;
+  width: 24rem;
   margin-right: 36px;
   border-radius: 10px;
+  box-shadow: -5px -5px 3px rgba(24, 201, 255, 0.863);
 }
 
 a {
